@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background:  linear-gradient(#3a5a9b,#28437a);
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+header ul li a:hover, header ul li a.active{
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent,#3a5a9b);
+    z-index: 1000;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section li{
+    text-decoration: none;
+    border: 30px #000000;
+}
+
+section img#pic{
+    width: 60%;
+    transform: translateY(-65px);
+}
+
+#text{
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    font-size: 15vw;
+    font-size: 5em;
+    z-index: 9;
+    top: 30%;
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #3a5a9b;
+}
+
+.sec h1{
+    position: absolute;
+    font-size: 3.5em;
+    top: 33%;
+    right: 28%;
+    color: white;
+    text-align: end;
+}
+
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sec h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sec p{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.sec ul li{
+    margin-left: 1%;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.profile{
+    position: absolute;
+    top: 10%;
+    right: -100px;
+    width: 50%;
+}
+
+.container1{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 15%;
+    height: 15%;
+}   
+
+.container1 h1{
+    text-align: center;
+    margin-top: 50%;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.container1 img:hover{
+    content: url(../Images/cloudaf.png);
+    transform: translateY(-30px);
+}
+
+.container2{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+    width: 15%;
+    height: 15%;
+}   
+
+.container2 h1{
+    text-align: center;
+    margin-top: 50%;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.container2 img:hover{
+    content: url(../Images/cloudaf.png);
+    transform: translateY(-30px);
+}
+.container3{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 20%;
+    width: 15%;
+    height: 15%;
+}   
+
+.container3 h1{
+    text-align: center;
+    margin-top: 50%;
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.container3 img:hover{
+    content: url(../Images/cloudaf.png);
+    transform: translateY(-30px);
+}
